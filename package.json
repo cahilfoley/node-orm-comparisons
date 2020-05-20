@@ -1,0 +1,30 @@
+{
+  "name": "node-orm-comparisons",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node --transpile-only src/"
+  },
+  "keywords": [
+    "orm",
+    "comparison",
+    "mongodb",
+    "mssql",
+    "database"
+  ],
+  "author": "Cahil Foley",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.0.0",
+    "mongodb": "^3.5.7",
+    "mssql": "^6.2.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.2.0",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
